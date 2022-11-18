@@ -1,0 +1,53 @@
+.navigation{
+    background-color:blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    color: white;
+    display: flex;
+}
+li{
+    font-size: 10px;
+    margin-right:3px ;
+}
+.logo{
+   color: white;
+   margin-left: 3px;
+}
+.home_page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    width: 80%;
+    margin: auto;
+}
+.text_home{
+    padding: 10px;
+}
+/* footer */
+.footer{
+   
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    padding: 20px;
+}
+.left_footer{
+    width: 80%;
+    margin: auto;
+}
+.right_footer{
+    width: 80%;
+    margin: auto;
+}
